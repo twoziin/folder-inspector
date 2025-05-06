@@ -35,7 +35,7 @@ def list_folders_with_sizes(main_folder):
             last_modified = datetime.fromtimestamp(latest_mtime).strftime('%Y-%m-%d %H:%M:%S')
             print(f"Pasta: {item} - Tamanho: {folder_size:.2f} MB - Última Modificação: {last_modified}")
 
-# Caminho da pasta principal na rede
+# Caminho da pasta principal
 main_folder = r"\\CAMINHO ATÉ\SUA PASTA"
 
 list_folders_with_sizes(main_folder)
