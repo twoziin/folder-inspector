@@ -36,6 +36,6 @@ def list_folders_with_sizes(main_folder):
             print(f"Pasta: {item} - Tamanho: {folder_size:.2f} MB - Última Modificação: {last_modified}")
 
 # Caminho da pasta principal na rede
-main_folder = r"\\emecDC\GRUPO EMEC"
+main_folder = r"\\CAMINHO ATÉ\SUA PASTA"
 
 list_folders_with_sizes(main_folder)
